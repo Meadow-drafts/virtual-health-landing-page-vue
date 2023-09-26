@@ -14,7 +14,7 @@
   import CustomSection from "./common/CustomSection.vue";
   import image from '../assets/img/10.jpg'
   export default {
-    name: "HeroSection",
+    name: "Download",
     components: {
       CustomSection, // Register the CustomSection component
     },
