@@ -6,6 +6,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <Navbar/> 
+  <HeroSection/>
 
   <!-- <main>
     <TheWelcome />
@@ -14,11 +15,13 @@ import TheWelcome from './components/TheWelcome.vue'
 <script>
 import TheWelcome from './components/TheWelcome.vue';
 import Navbar from './components/Navbar.vue'
+import HeroSection from './components/HeroSection.vue';
 export default {
   name:"App",
   components:{
     TheWelcome,
     Navbar,
+    HeroSection,
   },
   data() {
     
