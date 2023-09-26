@@ -20,7 +20,7 @@
     },
     data() {
       return {
-        headingProp: "virtual healthcare for you",
+        headingProp: "VIRTUAL HEALTHCARE FOR YOU",
         descriptionProp: "VRHealth provides progressive, and affordable healthcare , accessible on mobile and online for everyone.",
         buttonTextProp: "Consult Now",
         imageSrcProp: image,

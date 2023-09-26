@@ -6,7 +6,7 @@
         </div>
         <div class="lg:col-span-7">
           <div class="mr-auto place-self-center text-left ">
-            <h1 class="w-2/3 mb-4 text-3xl tracking-tight leading-none md:text-3xl xl:text-5xl font-bold   text-black">{{ heading }}</h1>
+            <h1 class="w-2/3 mb-4 text-3xl tracking-tight leading-none md:text-3xl xl:text-4xl font-semibold   text-black">{{ heading }}</h1>
             <HeaderLiner/>
             <p class="max-w-2xl mt-2 mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl">{{ description }}</p>
             

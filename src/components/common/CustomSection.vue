@@ -3,7 +3,8 @@
     <div  class="grid max-w-screen-xl  py-8 mx-auto lg:gap-8  xl:gap-0 lg:py-10 lg:grid-cols-12">
       <div class="lg:col-span-7">
         <div class="mr-auto place-self-center text-left ">
-          <h1 class="max-w-2xl mb-4 text-5xl tracking-tight leading-none md:text-5xl xl:text-6xl  uppercase text-black">{{ heading }}</h1>
+          <h1 class="w-2/3 mb-4 text-5xl font-semibold tracking-tight leading-none md:text-5xl xl:text-4xl  
+           text-black">{{ heading }}</h1>
           <p class="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl">{{ description }}</p>
           <button class="bg-blue-400 hover:bg-blue-400 inline-flex items-center justify-center px-5 py-3 mr-3  font-medium text-center text-white rounded-3xl ">
             {{ buttonText }}
@@ -19,8 +20,13 @@
 </template>
 
 <script>
+import Button from './Button.vue';
 export default {
   name: "CustomSection",
+  components:{
+    Button,
+    Button
+},
   props: {
     heading: String,
     description: String,
@@ -28,6 +34,7 @@ export default {
     imageSrc: String,
     imageAlt: String,
   },
+  
 
 };
 </script>

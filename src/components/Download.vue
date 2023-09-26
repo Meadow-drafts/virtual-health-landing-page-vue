@@ -12,7 +12,7 @@
   
   <script>
   import CustomSection from "./common/CustomSection.vue";
-  import image from '../assets/img/10.jpg'
+  import image from '../assets/img/9.jpg'
   export default {
     name: "Download",
     components: {
@@ -20,9 +20,9 @@
     },
     data() {
       return {
-        headingProp: "virtual healthcare for you",
+        headingProp: "Download our mobile apps",
         descriptionProp: "VRHealth provides progressive, and affordable healthcare , accessible on mobile and online for everyone.",
-        buttonTextProp: "Consult Now",
+        buttonTextProp: "Download",
         imageSrcProp: image,
         imageAltProp: "mockup",
       };
