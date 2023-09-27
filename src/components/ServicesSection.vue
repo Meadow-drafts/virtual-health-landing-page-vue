@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="text-gray-600 body-font">
-            <div class="container px-24 py-24 mx-auto">
+            <div class="container px-24 py-5 mx-auto">
                 <div class="flex flex-wrap ">
                     <Cards v-for="(card, index) in cardsData" :key="index" :heading="card.heading"
                         :description="card.description" :imageSrc="card.imageSrc" :imageAlt="card.imageAlt"
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <Button :labelText="labelTextProp"></Button>
+        <Button :labelText="labelTextProp" class="mb-14"></Button>
      
     </div>
 </template>

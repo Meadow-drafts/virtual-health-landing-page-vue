@@ -4,6 +4,9 @@
   <ServicesSection/>
   <AboutSection/>
   <Download/>
+  <ReviewsSection/>
+  <BlogSection />
+  <Footer/>
 
   <!-- <main>
     <TheWelcome />
@@ -16,6 +19,9 @@ import HeroSection from './components/HeroSection.vue';
 import ServicesSection from './components/ServicesSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import Download from './components/Download.vue';
+import ReviewsSection from './components/ReviewsSection.vue';
+import BlogSection from './components/BlogSection.vue';
+import Footer from './components/Footer.vue';
 export default {
   name:"App",
   components:{
@@ -25,6 +31,9 @@ export default {
     ServicesSection,
     AboutSection,
     Download,
+    ReviewsSection,
+    BlogSection,
+    Footer,
   },
   data() {
     

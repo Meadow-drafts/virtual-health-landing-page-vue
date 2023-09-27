@@ -6,7 +6,7 @@
           <h1 class="w-2/3 mb-4 text-5xl font-semibold tracking-tight leading-none md:text-5xl xl:text-4xl  
            text-black">{{ heading }}</h1>
           <p class="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl">{{ description }}</p>
-          <button class="bg-blue-400 hover:bg-blue-400 inline-flex items-center justify-center px-5 py-3 mr-3  font-medium text-center text-white rounded-3xl ">
+          <button class="bg-cyan-500 hover:bg-cyan-400 inline-flex items-center justify-center px-5 py-3 mr-3  font-medium text-center text-white rounded-3xl ">
             {{ buttonText }}
           </button>
          

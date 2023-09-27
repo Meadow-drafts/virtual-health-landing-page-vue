@@ -14,22 +14,22 @@
     <div :class="open ? 'block': 'hidden'" class="w-full  sm:flex sm:items-center sm:w-auto">
       <div class="text-sm sm:flex-grow font-medium">
         <a href="#responsive-header" 
-        :class="{ 'text-blue-500': isTabActive('Home'), 'text-gray-400': !isTabActive('Home') }"
+        :class="{ 'text-cyan-500': isTabActive('Home'), 'text-gray-400': !isTabActive('Home') }"
         class="no-underline block mt-4 sm:inline-block sm:mt-0  hover:text-white mr-4">
           Home
         </a>
         <a href="#responsive-header" 
-        :class="{ 'text-blue-500': isTabActive('Doctor'), 'text-gray-400': !isTabActive('Doctor') }"
+        :class="{ 'text-cyan-500': isTabActive('Doctor'), 'text-gray-400': !isTabActive('Doctor') }"
         class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4">
           Find a doctor
         </a>
         <a href="#responsive-header" 
-        :class="{ 'text-blue-500': isTabActive('Testimonials'), 'text-gray-400': !isTabActive('Testimonials') }"
+        :class="{ 'text-cyan-500': isTabActive('Testimonials'), 'text-gray-400': !isTabActive('Testimonials') }"
         class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4">
           Testimonials
         </a>
         <a href="#responsive-header"
-        :class="{ 'text-blue-500': isTabActive('About'), 'text-gray-400': !isTabActive('About') }"
+        :class="{ 'text-cyan-500': isTabActive('About'), 'text-gray-400': !isTabActive('About') }"
         class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white">
           About
         </a>
