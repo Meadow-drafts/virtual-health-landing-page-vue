@@ -1,5 +1,5 @@
 <template>
-    <div class="px-10 py-10 flex flex-col items-center background">
+    <div class=" py-10 flex flex-col items-center background">
         <div class="flex flex-col items-center">
             <p class="text-center text-4xl font-semibold">What Our Customers are Saying</p>
             <HeaderLiner />
@@ -9,8 +9,8 @@
                 of services is suitable for your health.
             </p>
         </div>
-        <div class="text-gray-600 body-font">
-            <div class="container px-24 py-5 mx-auto">
+        <div class="text-gray-600 body-font mt-10">
+            <div class=" px-2 xl:px-24 md:px-24 mx-auto">
                 <div class="flex flex-wrap ">
                     <CustomerCard  v-for="(card, index) in cardsData" :key="index"
             :description="card.description" 

@@ -5,8 +5,8 @@
             <HeaderLiner />
            
         </div>
-        <div class="text-gray-600 body-font">
-            <div class="container px-24  mx-auto">
+        <div class="text-gray-600 body-font mt-14">
+            <div class="px-2  xl:px-24 md:px-24  mx-auto">
                 <div class="flex flex-wrap ">
                     <Cards v-for="(card, index) in cardsData" :key="index" :heading="card.heading"
                         :buttonText="card.buttonTextProps"
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <Button :labelText="labelTextProp" class="mb-14"></Button>
+        <Button :labelText="labelTextProp" class="mb-14 text-cyan-500"></Button>
 
      
     </div>

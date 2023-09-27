@@ -1,5 +1,5 @@
 <template>
-    <div class="p-2 md:p-2 lg:p-2 xl:p-14 md:w-1/3">
+    <div class="p-2 md:p-2 lg:p-2 xl:p-14 md:w-1/3 w-full">
         <div class="h-full shadow-md p-2 rounded-2xl overflow-hidden">
             <div class="flex p-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"

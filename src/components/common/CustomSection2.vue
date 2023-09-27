@@ -1,6 +1,6 @@
 <template>
     <section  class=" my-8 rounded-md">
-      <div  class="grid max-w-screen-xl  py-8 mx-auto lg:gap-8  xl:gap-0 lg:py-10 lg:grid-cols-12">
+      <div  class="grid max-w-screen-xl  py-8 mx-5 xl:mx-auto lg:gap-8  xl:gap-0 lg:py-10 lg:grid-cols-12">
         <div class="hidden   lg:mt-0 lg:col-span-5 lg:flex">
           <img :src="imageSrc" :alt="imageAlt" />
         </div>

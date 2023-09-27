@@ -1,8 +1,8 @@
 <template>
   <section  class=" my-8 rounded-md">
-    <div  class="grid max-w-screen-xl  py-8 mx-auto lg:gap-8  xl:gap-0 lg:py-10 lg:grid-cols-12">
+    <div  class="grid max-w-screen-xl  py-8 mx-5 xl:mx-auto lg:gap-8  xl:gap-0 lg:py-10 lg:grid-cols-12">
       <div class="lg:col-span-7">
-        <div class="mr-auto place-self-center text-left ">
+        <div class="mr-auto  place-self-center text-left ">
           <h1 class="w-2/3 mb-4 text-5xl font-semibold tracking-tight leading-none md:text-5xl xl:text-4xl  
            text-black">{{ heading }}</h1>
           <p class="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl">{{ description }}</p>
