@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="text-gray-600 body-font mt-10">
-            <div class=" px-2 xl:px-24 md:px-24 mx-auto">
+            <div class=" px-2 xl:px-40 md:px-24 mx-auto">
                 <div class="flex flex-wrap ">
                     <CustomerCard  v-for="(card, index) in cardsData" :key="index"
             :description="card.description" 

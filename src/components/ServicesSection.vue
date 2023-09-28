@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="text-gray-600 body-font mt-8">
-            <div class="xl:px-24 md:px-24 px-2 py-5 mx-auto">
+            <div class="xl:px-32 md:px-24 px-2 py-5 mx-auto">
                 <div class="flex flex-wrap ">
                     <Cards v-for="(card, index) in cardsData" :key="index" :heading="card.heading"
                         :description="card.description" :imageSrc="card.imageSrc" :imageAlt="card.imageAlt"
